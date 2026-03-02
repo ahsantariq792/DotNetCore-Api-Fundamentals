@@ -1,0 +1,11 @@
+@CRUD-Operation_HostAddress = https://localhost:7249
+@CRUD_Operation_HostAddress = http://localhost:5111
+
+GET {{CRUD_Operation_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+
+GET {{CRUD-Operation_HostAddress}}/weatherforecast
+
+###
