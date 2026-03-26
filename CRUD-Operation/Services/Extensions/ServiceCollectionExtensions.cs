@@ -9,10 +9,16 @@ namespace CRUD_Operation.Services.Extensions
     {
         public static IServiceCollection AddApplicationServices(this IServiceCollection services, IConfiguration configuration)
         {
+            services.AddHttpContextAccessor();
+            services.AddScoped<CRUD_Operation.Core.Interfaces.ICurrentRequestSpecification, CRUD_Operation.Core.Utilities.CurrentRequestSpecification>();
+
             services.AddDbContextServices(configuration);
+            services.AddJwtAuthentication(configuration);
 
             services.AddScoped<ISuperHeroRepository, SuperHeroRepository>();
             services.AddScoped<ISuperHeroService, SuperHeroService>();
+            services.AddScoped<IUserRepository, UserRepository>();
+            services.AddScoped<IAuthService, AuthService>();
 
             return services;
         }

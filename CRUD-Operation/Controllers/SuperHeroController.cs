@@ -1,11 +1,13 @@
 using CRUD_Operation.Entities;
 using CRUD_Operation.Services.Interfaces;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace CRUD_Operation.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class SuperHeroController : ControllerBase
     {
         private readonly ISuperHeroService _superHeroService;

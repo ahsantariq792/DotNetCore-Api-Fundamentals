@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34511.84
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRUD-Operation", "CRUD-Operation\CRUD-Operation.csproj", "{897B3D9B-E1E3-4030-B4A3-28F467BC60E3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CRUD-Operation", "CRUD-Operation\CRUD-Operation.csproj", "{897B3D9B-E1E3-4030-B4A3-28F467BC60E3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CRUD-Operation.Tests", "CRUD-Operation.Tests\CRUD-Operation.Tests.csproj", "{FAA09683-7AC6-4A6A-91DE-C53E429EBF97}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{897B3D9B-E1E3-4030-B4A3-28F467BC60E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{897B3D9B-E1E3-4030-B4A3-28F467BC60E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{897B3D9B-E1E3-4030-B4A3-28F467BC60E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FAA09683-7AC6-4A6A-91DE-C53E429EBF97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAA09683-7AC6-4A6A-91DE-C53E429EBF97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAA09683-7AC6-4A6A-91DE-C53E429EBF97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAA09683-7AC6-4A6A-91DE-C53E429EBF97}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
